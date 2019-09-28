@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+$break-sm: 576px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-xl: 1200px;
+
+@mixin break-sm {
+    @media (min-width: $break-sm) {
+        @content;
+    }
+}
+@mixin break-md {
+    @media (min-width: $break-md) {
+        @content;
+    }
+}
+@mixin break-lg {
+    @media (min-width: $break-lg) {
+        @content;
+    }
+}
+@mixin break-xl {
+    @media (min-width: $break-xl) {
+        @content;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    background-color: #343a40 !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(rgb(236, 236, 236), rgb(163, 163, 163));
+    background: url('../res/interlaced.png');
+}
+
+header {
+    flex: 0 0 auto;
+
+    a[data-toggle=collapse]:hover {
+        cursor: pointer;
+    }
+
+    .navbarHome a {
+        color: rgb(0, 152, 135);
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+main {
+    flex: 1 1 auto;
+
+
+    .skillIcon {
+        user-select: none;
+    }
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+
+
+#portfolio::before, #resume::before, #about::before {
+    content: '';
+    height: 100px;
+    display: block;
+}
+
+.w-xs-50 {
+    @media (min-width: 400px) {
+        width: 50% !important;
+    }
+}
+
+.w-sm-40 {
+    @include break-sm {
+        width: 40% !important;
+    }
+}
+.w-lg-30 {
+    @include break-lg {
+        width: 30% !important;
+    }
+}
+

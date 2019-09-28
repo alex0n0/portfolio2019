@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Alexander Wu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <!-- <a href="./index.html"
+                class="navbar-brand bg-success rounded-circle align-items-center justify-content-center overflow-hidden d-flex d-sm-none"
+                style="height: 32px; width: 32px; background-color: rgb(0, 142, 125);">A</a> -->
+            <a data-toggle="collapse" data-target="#navbarToggler"
+                class="navbar-brand bg-success rounded-circle align-items-center justify-content-center overflow-hidden d-flex d-md-none text-white"
+                style="height: 32px; width: 32px; background-color: rgb(0, 142, 125);">A</a>
+
+            <a href="./index.html"
+                class="navbar-brand bg-success rounded-pill align-items-center justify-content-center overflow-hidden px-3 d-none d-md-flex"
+                style="height: 32px; background-color: rgb(0, 142, 125);">Alexander Wu</a>
+            <!-- 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mt-2 mt-lg-0 mr-auto">
+                    <li class="nav-item d-md-none border-secondary border-top border-bottom">
+                        <h4 class="text-center my-2 navbarHome"><a href="./index.html">Alexander Wu</a></h4>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume & Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mr-md-auto">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="btn btn-primary btn-sm d-flex align-items-center mr-2" href="https://github.com/alex0n0?tab=stars"
+                        target="_blank"><i class="fab fa-github mr-2"></i>GitHub</a>
+                    <a class="btn btn-primary btn-sm d-flex align-items-center" href="https://www.linkedin.com/in/alexander-wu-149372194"
+                        target="_blank">Linked<i class="fab fa-linkedin ml-1" style="font-size: 1.1rem;"></i></a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+
+
+    <main class="mt-5">
+        <div class="container my-0 my-sm-5 pt-4 px-3 px-sm-4 px-md-5 bg-white rounded-sm shadow-sm overflow-hidden">
+            <div class="row justify-content-left justify-content-sm-center">
+                <div class="col flex-shrink-1 flex-grow-0 col-10 col-sm-10 col-md-8 col-lg-6 col-xl-5">
+                    <h3 class="text-muted mt-5 text-truncate">Web Developer</h3>
+                    <h1 class="display-4 mb-0">Alexander Wu</h1>
+                </div>
+            </div>
+
+
+
+
+            <!-- 
+########################################
+Portfolio Section
+########################################
+-->
+            <section style="margin-bottom: 200px;">
+                <h1 id="portfolio" class="col-12 mb-5">Portfolio</h1>
+
+                <div id="portfolioProjects" class="d-flex flex-wrap">
+
+                    <!-- <div class="col-12 col-lg-6 mb-4">
+                        <div class="card bg-light flex-row flex-wrap p-0 py-3">
+                            <h4 class="col-12 d-block d-sm-none d-lg-block text-center mb-3">Star Wars RPG</h4>
+                            <div class="col-12 col-sm-6 col-lg-12 mb-4 mb-sm-0 mb-lg-4">
+                                <a href="./assets/res/project1_star_wars_rpg_game.png"
+                                    title="project1_star_wars_rpg_game.png" target="_blank">
+                                    <img src="./assets/res/project1_star_wars_rpg_game.png" class="img-fluid rounded shadow"
+                                        alt="project1_star_wars_rpg_game.png">
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-12 d-flex flex-column">
+                                <h4 class="d-none d-sm-block d-lg-none">Star Wars RPG</h4>
+                                <p class="small text-muted mb-2 text-right text-sm-left text-lg-right">12 Dec 2019</p>
+                                <p class="mb-auto">This project gave the first lesson in generating new elements
+                                </p>
+                                <div class="d-flex justify-content-between mt-2 flex-column flex-sm-row flex-lg-column">
+                                    <a href="#"
+                                        class="btn btn-outline-secondary btn-sm mr-sm-3 mr-lg-0 mb-2 mb-sm-0 mb-lg-2 flex-grow-1">
+                                        <i class="fas fa-eye mr-1"></i>Demo
+                                    </a>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm flex-grow-1">
+                                        <i class="fab fa-github mr-1"></i>Source
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </section>
+
+
+
+
+            <!-- 
+########################################
+Resume & Skills Section
+########################################
+-->
+            <section class="mb-5" style="padding-bottom: 200px;">
+                <h1 id="resume" class="col-12 mb-5">Resume & Skills</h1>
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-12 col-md-8 mb-5">
+                        <div
+                            class="card bg-light p-2 flex-row justify-content-center align-items-center flex-wrap mb-4 overflow-hidden">
+                            <a href="./assets/res/Resume_Alexander_Wu.pdf" target="_blank" class="stretched-link">View
+                                Resume</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="d-flex align-items-center mb-2 flex-wrap">
+                            <p class="m-0 text-muted mr-auto">Tools</p>
+                            <div class="btn-group">
+                                <button class="btnShowIcons btn btn-outline-secondary btn-sm active">Icons</button>
+                                <button class="btnShowText btn btn-outline-secondary btn-sm ">Text</button>
+                            </div>
+                        </div>
+                        <div id="skillsTools"
+                            class="card bg-light p-2 flex-row justify-content-center align-items-center flex-wrap mb-4 overflow-hidden">
+                            <!-- generated elements -->
+                        </div>
+
+
+
+
+
+                        <div class="d-flex align-items-center mb-2 flex-wrap">
+                            <p class="m-0 text-muted mr-auto">Front End</p>
+                            <div class="btn-group">
+                                <button class="btnShowIcons btn btn-outline-secondary btn-sm active">Icons</button>
+                                <button class="btnShowText btn btn-outline-secondary btn-sm ">Text</button>
+                            </div>
+                        </div>
+                        <div id="skillsFrontend"
+                            class="card bg-light p-2 flex-row justify-content-center align-items-center flex-wrap mb-4 overflow-hidden">
+                            <!-- generated elements -->
+                        </div>
+
+
+
+                        <div class="d-flex align-items-center mb-2 flex-wrap">
+                            <p class="m-0 text-muted mr-auto">Languages</p>
+                            <div class="btn-group">
+                                <button class="btnShowIcons btn btn-outline-secondary btn-sm active">Icons</button>
+                                <button class="btnShowText btn btn-outline-secondary btn-sm ">Text</button>
+                            </div>
+                        </div>
+                        <div id="skillsLanguages"
+                            class="card bg-light p-2 flex-row justify-content-center align-items-center flex-wrap mb-4 overflow-hidden">
+                            <!-- generated elements -->
+                        </div>
+
+
+
+
+                        <div class="d-flex align-items-center mb-2 flex-wrap">
+                            <p class="m-0 text-muted mr-auto">Back End</p>
+                            <div class="btn-group">
+                                <button class="btnShowIcons btn btn-outline-secondary btn-sm active">Icons</button>
+                                <button class="btnShowText btn btn-outline-secondary btn-sm ">Text</button>
+                            </div>
+                        </div>
+                        <div id="skillsBackend"
+                            class="card bg-light p-2 flex-row justify-content-center align-items-center flex-wrap mb-4 overflow-hidden">
+                            <!-- generated elements -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <!-- 
+########################################
+About Section
+########################################
+-->
+            <section class="mb-5" style="padding-bottom: 200px;">
+                <h1 id="about" class="col-12 mb-5">About</h1>
+                <div class="col-12">
+                    <img class="rounded h-auto w-100 w-xs-50 w-sm-40 w-lg-30 float-left mr-4 mb-3 mb-sm-0" src="./assets/res/picprofile.jpg" alt="">
+                    <p>Hello I'm Alex, I haven't been doing web development for long but I have my eye set on being
+                        a full stack web dev. Currently working part time as a tutor and finishing my university
+                        degree studying information systems.</p>
+                    <p>I am a big fan of rock climbing, unhealthy eating and enjoy trying to balance it all by
+                        working out :)</p>
+                    <p>More of a coffee drinker but I also like tea and I firmly believe that you can never go wrong
+                        with original flavour chips because standard is always the best.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+
+
+
+    <footer class="bg-dark">
+        <div class="container py-5 px-3 px-sm-4 px-md-5">
+            <!-- 
+########################################
+Contact Section
+########################################
+-->
+            <section>
+                <h2 id="contact" class="text-white mb-5">Contact me</h2>
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-4">
+                        <form id="formContact">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" style="width: 100px;">Subject</span>
+                                </div>
+                                <input id="inputSubject" type="text" class="form-control">
+                            </div>
+                            <p id="inputSubjectWarning" class="text-danger small m-0" style="height: 2rem;"></p>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" style="width: 100px;">Email</span>
+                                </div>
+                                <input id="inputEmail" type="text" class="form-control">
+                            </div>
+                            <p id="inputEmailWarning" class="text-danger small m-0" style="height: 2rem;"></p>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" style="width: 100px;">Message</span>
+                                </div>
+                                <textarea id="inputMessage" rows="5" class="form-control"></textarea>
+                            </div>
+                            <p id="inputMessageWarning" class="text-danger small m-0" style="height: 2rem;"></p>
+                            <button class="btn btn-primary btn-block" type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="text-secondary m-0">
+                        &copy; Copyright 2019
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./assets/javascript/index.js"></script>
+</body>
+
+</html>
