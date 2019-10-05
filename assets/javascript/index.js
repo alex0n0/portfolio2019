@@ -28,6 +28,17 @@ var arrProjects = [
         urlImage: './assets/res/project3_chowtown.png',
         urlDemo: 'https://elliloes.github.io/Project-ChowTown/',
         urlSource: 'https://github.com/ElliLoes/Project-ChowTown',
+    },
+    {
+        name: 'LIRI Bot - Node CLI with API integration',
+        description: `<li>...</li>
+            <li>C</li>
+            <li>B</li>
+            <li>C</li>`,
+        date: '6 Sep 2019',
+        urlImage: './assets/res/project4_liri_bot.png',
+        urlDemo: 'https://github.com/alex0n0/LIRI_Bot',
+        urlSource: 'https://github.com/alex0n0/LIRI_Bot',
     }
 ];
 
