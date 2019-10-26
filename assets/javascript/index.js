@@ -39,6 +39,14 @@ var arrProjects = [
         urlImage: './assets/res/project4_liri_bot.png',
         urlDemo: 'https://github.com/alex0n0/LIRI_Bot',
         urlSource: 'https://github.com/alex0n0/LIRI_Bot',
+    },
+    {
+        name: 'Friend Finder',
+        description: `<li>Friend Finder is an application that is delivered via a Node-Express server which is hosted on Heroku</li>`,
+        date: '26 Oct 2019',
+        urlImage: './assets/res/project5_friendfinder.png',
+        urlDemo: 'https://beanstalk33.herokuapp.com/',
+        urlSource: 'https://github.com/alex0n0/Friend-Finder',
     }
 ];
 
