@@ -31,10 +31,7 @@ var arrProjects = [
     },
     {
         name: 'LIRI Bot - Node CLI with API integration',
-        description: `<li>...</li>
-            <li>C</li>
-            <li>B</li>
-            <li>C</li>`,
+        description: `<li>LIRI bot is a node cli application that collects user input with Inquirer.js</li>`,
         date: '6 Sep 2019',
         urlImage: './assets/res/project4_liri_bot.png',
         urlDemo: 'https://github.com/alex0n0/LIRI_Bot',
@@ -47,6 +44,22 @@ var arrProjects = [
         urlImage: './assets/res/project5_friendfinder.png',
         urlDemo: 'https://beanstalk33.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/Friend-Finder',
+    },
+    {
+        name: 'Eat Da Burger',
+        description: `<li>Eat Da Burger is a simple using Heroku deployment ClearDB SQL datebase</li>`,
+        date: '2 Nov 2019',
+        urlImage: './assets/res/project6_eatdaburger.png',
+        urlDemo: 'https://beanstalk99.herokuapp.com/',
+        urlSource: 'https://github.com/alex0n0/eat-da-burger',
+    },
+    {
+        name: 'Project 2 - Automender',
+        description: `<li>Automender is an platform for customers to make appointments with mechanics registered with our system</li>`,
+        date: '12 Nov 2019',
+        urlImage: './assets/res/project7_automender.png',
+        urlDemo: 'https://usyd-bc-project-two.herokuapp.com/',
+        urlSource: 'https://github.com/nick-ramsay/project-two',
     }
 ];
 
