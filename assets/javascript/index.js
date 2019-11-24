@@ -1,9 +1,15 @@
 var arrProjects = [
     {
         name: 'Star Wars RPG',
-        description: `<li>Browser based RPG game inspired by Star Wars.</li>
-            <li>Randomised player images and stats.</li>
-            <li>Clean UI with ample visual indicators and input restrictions to direct action in the intended direction.</li></ul>`,
+        description: `
+            <p class="ml-n4 mb-"><b>“One vs all”–style browser based game</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Randomised player images and stats</li>
+                <li>Upated stats with each turn</li>
+                <li>UX considerations in the form of semantically coloured zones and disabled buttons depending on game phase</li>
+            </div>
+        `,
         date: '24 Aug 2019',
         urlImage: './assets/res/project1_star_wars_rpg_game.png',
         urlDemo: 'https://alex0n0.github.io/Star-Wars-RPG-Game/',
@@ -11,35 +17,77 @@ var arrProjects = [
     },
     {
         name: 'Trivia Game',
-        description: `<li>Prehistoric trivia with randomised questions and multiple choice options.</li>
-            <li>And automated progression with the use of JS timers.</li>`,
+        description: `
+            <p class="ml-n4 mb-"><b>A randomised prehistoric trivia game with 10 rounds,</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Randomised multiple choice</li>
+                <li>Game flow is controlled via browser timers and intervals</li>
+            </div>
+        `,
         date: '31 Aug 2019',
         urlImage: './assets/res/project2_trivia_game.png',
         urlDemo: 'https://alex0n0.github.io/TriviaGame/',
         urlSource: 'https://github.com/alex0n0/TriviaGame',
     },
     {
-        name: 'ChowTown - Personal Dining Catalogue',
-        description: `<li>ChowTown is an application that aids users in finding and keeping record of their favourite restaurants around the world.</li>
-            <li>Additionally allows users to plan trips by organising restaurants into collections.</li>
-            <li>Built using Yelp API and Google Geocoding API.</li>
-            <li>Relies on browser local storage for saving information created by the user.</li>`,
+        name: 'ChowTown',
+        description: `
+            <p class="ml-n4 mb-"><b>ChowTown is a web application encouraging exploration of dining options locally and internationally.</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Search for restaurants based on food category and location</li>
+                <li>Save restaurants of interest and organise them into collections</li>
+                <li>Uses APIs from Yelp and Google (Geocoding)</li>
+            </div>
+        `,
         date: '16 Sep 2019',
         urlImage: './assets/res/project3_chowtown.png',
         urlDemo: 'https://elliloes.github.io/Project-ChowTown/',
         urlSource: 'https://github.com/ElliLoes/Project-ChowTown',
     },
     {
-        name: 'LIRI Bot - Node CLI with API integration',
-        description: `<li>LIRI bot is a node cli application that collects user input with Inquirer.js</li>`,
+        name: 'LIRI Bot',
+        description: `
+            <p class="ml-n4 mb-"><b>LIRI Bot is a node command line application for making searches to a variety of APIs. This application is run in the terminal (MacOS/Linux), command line (Windows).</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Uses APIS from Spotify, OMDb, Bands In Town</li>
+                <li>Controlled via recursive functions</li>
+            </div>
+        `,
         date: '6 Sep 2019',
         urlImage: './assets/res/project4_liri_bot.png',
         urlDemo: 'https://github.com/alex0n0/LIRI_Bot',
         urlSource: 'https://github.com/alex0n0/LIRI_Bot',
     },
+    // {
+    //     name: 'Bamazon - Node CLI Application',
+    //     description: `
+    //         <li>LIRI bot is a node cli application that collects user input with Inquirer.js</li>
+    //         <li>Features:
+    //             <ul>
+    //                 <li>asdf</li>
+    //                 <li>asdf</li>
+    //             </ul>
+    //         </li>
+    //     `,
+    //     date: '19 Oct 2019',
+    //     urlImage: './assets/res/project4_liri_bot.png',
+    //     urlDemo: 'https://github.com/alex0n0/bamazon-cli',
+    //     urlSource: 'https://github.com/alex0n0/bamazon-cli',
+    // },
     {
         name: 'Friend Finder',
-        description: `<li>Friend Finder is an application that is delivered via a Node-Express server which is hosted on Heroku</li>`,
+        description: `
+            <p class="ml-n4 mb-"><b>Friend Finder is a Heroku hosted site for creating profiles and being recommended a friend with similar interests.</b></p>
+            <p class="ml-n4 mb-0"><b>Features</b></p>
+            <div class="mb-3">
+                <li>Create a profile with a randomly generated profile image</li>
+                <li>Receive a recommendation for a friend with matching interests</li>
+                <li>Node server with API routes</li>
+            </div>
+        `,
         date: '26 Oct 2019',
         urlImage: './assets/res/project5_friendfinder.png',
         urlDemo: 'https://beanstalk33.herokuapp.com/',
@@ -47,15 +95,34 @@ var arrProjects = [
     },
     {
         name: 'Eat Da Burger',
-        description: `<li>Eat Da Burger is a simple using Heroku deployment ClearDB SQL datebase</li>`,
+        description: `
+            <p class="ml-n4 mb-"><b>Eat Da Burger is a Heroku hosted, Node server delivered, webpage with dedicated API routes for create/read/update functionality.</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Make <i>new</i> and <i>repeat</i> burger requests</li>
+                <li>List of burgers that have been <i>created</i> and <i>eaten</i></li>
+                <li>Node server with API routes</li>
+                <li>JawsDB (MySQL) data storage</li>
+            </div>
+        `,
         date: '2 Nov 2019',
         urlImage: './assets/res/project6_eatdaburger.png',
         urlDemo: 'https://beanstalk99.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/eat-da-burger',
     },
     {
-        name: 'Project 2 - Automender',
-        description: `<li>Automender is an platform for customers to make appointments with mechanics registered with our system</li>`,
+        name: 'Automender',
+        description: `
+            <p class="ml-n4 mb-"><b>Automender is a mock platform-as-a-service application where customers can make appointments with mechanic centres registered with the service.</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Mechanic account creation, update & appointment viewing</li>
+                <li>Customer appointment booking</li>
+                <li>Location based results filtering</li>
+                <li>Node server with API routes</li>
+                <li>JawsDB (MySQL) data storage</li>
+            </div>
+        `,
         date: '12 Nov 2019',
         urlImage: './assets/res/project7_automender.png',
         urlDemo: 'https://usyd-bc-project-two.herokuapp.com/',
@@ -66,12 +133,6 @@ var arrProjects = [
 
 
 var objSkills = {
-    tools: [
-        {
-            name: 'Git',
-            url: './assets/res/skillIcons/git.svg'
-        }
-    ],
     frontEnd: [
         {
             name: 'HTML 5',
@@ -80,6 +141,10 @@ var objSkills = {
         {
             name: 'CSS 3',
             url: './assets/res/skillIcons/css3.svg'
+        },
+        {
+            name: 'jQuery',
+            url: './assets/res/skillIcons/jquery.svg'
         },
         {
             name: 'Sass',
@@ -98,12 +163,38 @@ var objSkills = {
     ],
     backEnd: [
         {
-            name: 'Firebase',
-            url: './assets/res/skillIcons/firebase.svg'
+            name: 'Node.js',
+            url: './assets/res/skillIcons/nodejs-icon.svg'
+        },
+        {
+            name: 'Express.js',
+            url: './assets/res/skillIcons/express.svg'
+        },
+        {
+            name: 'MySQL',
+            url: './assets/res/skillIcons/mysql.svg'
         },
         {
             name: 'SQLite',
             url: './assets/res/skillIcons/sqlite.svg'
+        },
+        {
+            name: 'MongoDB',
+            url: './assets/res/skillIcons/mongodb.svg'
+        },
+        {
+            name: 'Firebase',
+            url: './assets/res/skillIcons/firebase.svg'
+        }
+    ],
+    tools: [
+        {
+            name: 'Git',
+            url: './assets/res/skillIcons/git.svg'
+        },
+        {
+            name: 'Photoshop',
+            url: './assets/res/skillIcons/git.svg'
         }
     ]
 }
@@ -187,10 +278,10 @@ function renderProjects(arr) {
 renderSkills(objSkills);
 
 function renderSkills(obj) {
-    appendSkills(obj.tools, $('#skillsTools'));
     appendSkills(obj.frontEnd, $('#skillsFrontend'));
     appendSkills(obj.languages, $('#skillsLanguages'));
     appendSkills(obj.backEnd, $('#skillsBackend'));
+    appendSkills(obj.tools, $('#skillsTools'));
 
     $('.skillIcon').on('mouseover', function () {
         $(this).tooltip('show');
