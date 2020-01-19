@@ -16,22 +16,6 @@
 //         urlSource: 'https://github.com/alex0n0/Friend-Finder',
 //     },
 //     {
-//         name: 'Star Wars RPG',
-//         description: `
-//             <p class="ml-n4 mb-"><b>“One vs all”–style browser based game</b></p>
-//             <p class="ml-n4 mb-0">Features</p>
-//             <div class="mb-3">
-//                 <li>Randomised player images and stats</li>
-//                 <li>Upated stats with each turn</li>
-//                 <li>UX considerations in the form of semantically coloured zones and disabled buttons depending on game phase</li>
-//             </div>
-//         `,
-//         date: '24 Aug 2019',
-//         urlImage: './assets/res/project1_star_wars_rpg_game.png',
-//         urlDemo: 'https://alex0n0.github.io/Star-Wars-RPG-Game/',
-//         urlSource: 'https://github.com/alex0n0/Star-Wars-RPG-Game',
-//     },
-//     {
 //         name: 'Trivia Game',
 //         description: `
 //             <p class="ml-n4 mb-"><b>A randomised prehistoric trivia game with 10 rounds,</b></p>
@@ -46,9 +30,41 @@
 //         urlDemo: 'https://alex0n0.github.io/TriviaGame/',
 //         urlSource: 'https://github.com/alex0n0/TriviaGame',
 //     },
+//     {
+//         name: 'Subreddit Scraper (HTML/JS App)',
+//         description: `
+//             <p class="ml-n4"><b>Subreddit Scraper app allows you to toggle between different subreddits to scrape and save articles.</b></p>
+//             <p class="ml-n4 mb-0">Features</p>
+//             <div class="mb-3">
+//                 <li>Save and delete articles from scraped articles</li>
+//                 <li>Create, update and delete notes on saved articles</li>
+//                 <li>mLab (MongoDB) data storage</li>
+//             </div>
+//         `,
+//         date: '30 Nov 2019',
+//         urlImage: '',
+//         urlDemo: 'https://beanstalk66.herokuapp.com/',
+//         urlSource: 'https://github.com/alex0n0/WebScraper',
+//     }
 // ];
 
 var arrProjects = [
+    {
+        name: 'Star Wars RPG',
+        description: `
+            <p class="ml-n4 mb-"><b>“One vs all”–style browser based game.</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Randomised player images and stats</li>
+                <li>Upated stats with each turn</li>
+                <li>UX considerations in the form of semantically coloured zones and disabled buttons depending on game phase</li>
+            </div>
+        `,
+        date: '24 Aug 2019',
+        urlImage: './assets/res/screenshot_star_wars_rpg_game.png',
+        urlDemo: 'https://alex0n0.github.io/Star-Wars-RPG-Game/',
+        urlSource: 'https://github.com/alex0n0/Star-Wars-RPG-Game',
+    },
     {
         name: 'ChowTown (HTML/JS App)',
         description: `
@@ -83,7 +99,7 @@ var arrProjects = [
     {
         name: 'Bamazon (Node CLI App)',
         description: `
-            <p class="ml-n4"><b>Bamazon is a command line application with a customer and manager interface for purchasing and managing products</b></p>
+            <p class="ml-n4"><b>Bamazon is a command line application with a customer and manager interface for purchasing and managing inventory.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Customer interface allows the user to choose items and quantities to purchase and view available stock</li>
@@ -91,7 +107,7 @@ var arrProjects = [
             </div>
         `,
         date: '19 Oct 2019',
-        urlImage: '',
+        urlImage: './assets/res/screenshot_bamazon.png',
         urlDemo: 'https://github.com/alex0n0/bamazon-cli',
         urlSource: 'https://github.com/alex0n0/bamazon-cli',
     },
@@ -132,22 +148,6 @@ var arrProjects = [
         urlSource: 'https://github.com/nick-ramsay/project-two',
     },
     {
-        name: 'Subreddit Scraper (HTML/JS App)',
-        description: `
-            <p class="ml-n4"><b>Subreddit Scraper app allows you to toggle between different subreddits to scrape and save articles.</b></p>
-            <p class="ml-n4 mb-0">Features</p>
-            <div class="mb-3">
-                <li>Save and delete articles from scraped articles</li>
-                <li>Create, update and delete notes on saved articles</li>
-                <li>mLab (MongoDB) data storage</li>
-            </div>
-        `,
-        date: '30 Nov 2019',
-        urlImage: '',
-        urlDemo: 'https://beanstalk66.herokuapp.com/',
-        urlSource: 'https://github.com/alex0n0/WebScraper',
-    },
-    {
         name: "Clicker Game (React App)",
         description: `
             <p class="ml-n4"><b>React clicker game is a Batman themed memory game requiring you to click on each option only once.</b></p>
@@ -159,7 +159,7 @@ var arrProjects = [
             </div>
         `,
         date: '7 Dec 2019',
-        urlImage: '',
+        urlImage: './assets/res/screenshot_reactclickergame.png',
         urlDemo: 'https://beanstalk88.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/reactclickergame',
     },
@@ -208,17 +208,17 @@ var objSkills = {
             url: './assets/res/skillIcons/css3.svg'
         },
         {
-            name: 'jQuery',
-            url: './assets/res/skillIcons/jquery.svg'
-        },
-        {
             name: 'Sass',
             url: './assets/res/skillIcons/sass.svg'
         },
         {
             name: 'Bootstrap',
             url: './assets/res/skillIcons/bootstrap.svg'
-        }
+        },
+        {
+            name: 'jQuery',
+            url: './assets/res/skillIcons/jquery.svg'
+        },
     ],
     languages: [
         {
@@ -259,7 +259,7 @@ var objSkills = {
         },
         {
             name: 'Photoshop',
-            url: './assets/res/skillIcons/git.svg'
+            url: './assets/res/skillIcons/photoshop.png'
         }
     ]
 }
@@ -357,50 +357,58 @@ function renderSkills(obj) {
         $('.btnShowIcons').addClass('active');
         $('.btnShowText').removeClass('active');
 
-        $('#skillsTools').addClass('flex-row');
-        $('#skillsTools').removeClass('flex-column');
-        $('#skillsTools').find('img').removeClass('d-none');
-        $('#skillsTools').find('p').addClass('d-none');
-
-        $('#skillsFrontend').addClass('flex-row');
-        $('#skillsFrontend').removeClass('flex-column');
+        // $('#skillsFrontend').addClass('flex-row');
+        // $('#skillsFrontend').removeClass('flex-column');
+        $('#skillsFrontend').addClass('justify-content-center');
         $('#skillsFrontend').find('img').removeClass('d-none');
         $('#skillsFrontend').find('p').addClass('d-none');
 
-        $('#skillsLanguages').addClass('flex-row');
-        $('#skillsLanguages').removeClass('flex-column');
+        // $('#skillsLanguages').addClass('flex-row');
+        // $('#skillsLanguages').removeClass('flex-column');
+        $('#skillsLanguages').addClass('justify-content-center');
         $('#skillsLanguages').find('img').removeClass('d-none');
         $('#skillsLanguages').find('p').addClass('d-none');
 
-        $('#skillsBackend').addClass('flex-row');
-        $('#skillsBackend').removeClass('flex-column');
+        // $('#skillsBackend').addClass('flex-row');
+        // $('#skillsBackend').removeClass('flex-column');
+        $('#skillsBackend').addClass('justify-content-center');
         $('#skillsBackend').find('img').removeClass('d-none');
         $('#skillsBackend').find('p').addClass('d-none');
+
+        // $('#skillsTools').addClass('flex-row');
+        // $('#skillsTools').removeClass('flex-column');
+        $('#skillsTools').addClass('justify-content-center');
+        $('#skillsTools').find('img').removeClass('d-none');
+        $('#skillsTools').find('p').addClass('d-none');
     });
     $('.btnShowText').on('click', function () {
         $(this).blur();
         $('.btnShowText').addClass('active');
         $('.btnShowIcons').removeClass('active');
 
-        $('#skillsTools').addClass('flex-column');
-        $('#skillsTools').removeClass('flex-row');
-        $('#skillsTools').find('p').removeClass('d-none');
-        $('#skillsTools').find('img').addClass('d-none');
-
-        $('#skillsFrontend').addClass('flex-column');
-        $('#skillsFrontend').removeClass('flex-row');
+        // $('#skillsFrontend').addClass('flex-column');
+        // $('#skillsFrontend').removeClass('flex-row');
+        $('#skillsFrontend').removeClass('justify-content-center');
         $('#skillsFrontend').find('p').removeClass('d-none');
         $('#skillsFrontend').find('img').addClass('d-none');
 
-        $('#skillsLanguages').addClass('flex-column');
-        $('#skillsLanguages').removeClass('flex-row');
+        // $('#skillsLanguages').addClass('flex-column');
+        // $('#skillsLanguages').removeClass('flex-row');
+        $('#skillsLanguages').removeClass('justify-content-center');
         $('#skillsLanguages').find('p').removeClass('d-none');
         $('#skillsLanguages').find('img').addClass('d-none');
 
-        $('#skillsBackend').addClass('flex-column');
-        $('#skillsBackend').removeClass('flex-row');
+        // $('#skillsBackend').addClass('flex-column');
+        // $('#skillsBackend').removeClass('flex-row');
+        $('#skillsBackend').removeClass('justify-content-center');
         $('#skillsBackend').find('p').removeClass('d-none');
         $('#skillsBackend').find('img').addClass('d-none');
+
+        // $('#skillsTools').addClass('flex-column');
+        // $('#skillsTools').removeClass('flex-row');
+        $('#skillsTools').removeClass('justify-content-center');
+        $('#skillsTools').find('p').removeClass('d-none');
+        $('#skillsTools').find('img').addClass('d-none');
     });
 }
 
@@ -410,7 +418,7 @@ function appendSkills(arr, region) {
         region.append(
             `<img class="m-2 skillIcon" style="height: 40px" src="${arr[i].url}"
                 alt="${arr[i].name}" data-toggle="tooltip" data-placement="bottom" title="${arr[i].name}">`
-            + `<p class="d-none">${arr[i].name}</p>`
+            + `<p class="d-none p-3 m-0">${arr[i].name}</p>`
         );
     }
 }
