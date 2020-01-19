@@ -1,39 +1,58 @@
+// var arrProjectsUnused = [
+//     {
+//         name: 'Friend Finder',
+//         description: `
+//             <p class="ml-n4 mb-"><b>Friend Finder is a Heroku hosted site for creating profiles and being recommended a friend with similar interests.</b></p>
+//             <p class="ml-n4 mb-0"><b>Features</b></p>
+//             <div class="mb-3">
+//                 <li>Create a profile with a randomly generated profile image</li>
+//                 <li>Receive a recommendation for a friend with matching interests</li>
+//                 <li>Node server with API routes</li>
+//             </div>
+//         `,
+//         date: '26 Oct 2019',
+//         urlImage: './assets/res/project5_friendfinder.png',
+//         urlDemo: 'https://beanstalk33.herokuapp.com/',
+//         urlSource: 'https://github.com/alex0n0/Friend-Finder',
+//     },
+//     {
+//         name: 'Star Wars RPG',
+//         description: `
+//             <p class="ml-n4 mb-"><b>“One vs all”–style browser based game</b></p>
+//             <p class="ml-n4 mb-0">Features</p>
+//             <div class="mb-3">
+//                 <li>Randomised player images and stats</li>
+//                 <li>Upated stats with each turn</li>
+//                 <li>UX considerations in the form of semantically coloured zones and disabled buttons depending on game phase</li>
+//             </div>
+//         `,
+//         date: '24 Aug 2019',
+//         urlImage: './assets/res/project1_star_wars_rpg_game.png',
+//         urlDemo: 'https://alex0n0.github.io/Star-Wars-RPG-Game/',
+//         urlSource: 'https://github.com/alex0n0/Star-Wars-RPG-Game',
+//     },
+//     {
+//         name: 'Trivia Game',
+//         description: `
+//             <p class="ml-n4 mb-"><b>A randomised prehistoric trivia game with 10 rounds,</b></p>
+//             <p class="ml-n4 mb-0">Features</p>
+//             <div class="mb-3">
+//                 <li>Randomised multiple choice</li>
+//                 <li>Game flow is controlled via browser timers and intervals</li>
+//             </div>
+//         `,
+//         date: '31 Aug 2019',
+//         urlImage: './assets/res/project2_trivia_game.png',
+//         urlDemo: 'https://alex0n0.github.io/TriviaGame/',
+//         urlSource: 'https://github.com/alex0n0/TriviaGame',
+//     },
+// ];
+
 var arrProjects = [
     {
-        name: 'Star Wars RPG',
+        name: 'ChowTown (HTML/JS App)',
         description: `
-            <p class="ml-n4 mb-"><b>“One vs all”–style browser based game</b></p>
-            <p class="ml-n4 mb-0">Features</p>
-            <div class="mb-3">
-                <li>Randomised player images and stats</li>
-                <li>Upated stats with each turn</li>
-                <li>UX considerations in the form of semantically coloured zones and disabled buttons depending on game phase</li>
-            </div>
-        `,
-        date: '24 Aug 2019',
-        urlImage: './assets/res/project1_star_wars_rpg_game.png',
-        urlDemo: 'https://alex0n0.github.io/Star-Wars-RPG-Game/',
-        urlSource: 'https://github.com/alex0n0/Star-Wars-RPG-Game',
-    },
-    {
-        name: 'Trivia Game',
-        description: `
-            <p class="ml-n4 mb-"><b>A randomised prehistoric trivia game with 10 rounds,</b></p>
-            <p class="ml-n4 mb-0">Features</p>
-            <div class="mb-3">
-                <li>Randomised multiple choice</li>
-                <li>Game flow is controlled via browser timers and intervals</li>
-            </div>
-        `,
-        date: '31 Aug 2019',
-        urlImage: './assets/res/project2_trivia_game.png',
-        urlDemo: 'https://alex0n0.github.io/TriviaGame/',
-        urlSource: 'https://github.com/alex0n0/TriviaGame',
-    },
-    {
-        name: 'ChowTown',
-        description: `
-            <p class="ml-n4 mb-"><b>ChowTown is a web application encouraging exploration of dining options locally and internationally.</b></p>
+            <p class="ml-n4"><b>ChowTown is a web application encouraging exploration of dining options locally and internationally.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Search for restaurants based on food category and location</li>
@@ -42,61 +61,45 @@ var arrProjects = [
             </div>
         `,
         date: '16 Sep 2019',
-        urlImage: './assets/res/project3_chowtown.png',
+        urlImage: './assets/res/screenshot_chowtown.png',
         urlDemo: 'https://elliloes.github.io/Project-ChowTown/',
         urlSource: 'https://github.com/ElliLoes/Project-ChowTown',
     },
     {
-        name: 'LIRI Bot',
+        name: 'LIRI Bot (Node CLI App)',
         description: `
-            <p class="ml-n4 mb-"><b>LIRI Bot is a node command line application for making searches to a variety of APIs. This application is run in the terminal (MacOS/Linux), command line (Windows).</b></p>
+            <p class="ml-n4"><b>LIRI Bot is a command line application for making searches to a variety of APIs. This application is run in the terminal (MacOS/Linux), command line (Windows).</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Uses APIS from Spotify, OMDb, Bands In Town</li>
                 <li>Controlled via recursive functions</li>
             </div>
         `,
-        date: '6 Sep 2019',
-        urlImage: './assets/res/project4_liri_bot.png',
+        date: '5 Oct 2019',
+        urlImage: './assets/res/screenshot_liri_bot.png',
         urlDemo: 'https://github.com/alex0n0/LIRI_Bot',
         urlSource: 'https://github.com/alex0n0/LIRI_Bot',
     },
-    // {
-    //     name: 'Bamazon - Node CLI Application',
-    //     description: `
-    //         <li>LIRI bot is a node cli application that collects user input with Inquirer.js</li>
-    //         <li>Features:
-    //             <ul>
-    //                 <li>asdf</li>
-    //                 <li>asdf</li>
-    //             </ul>
-    //         </li>
-    //     `,
-    //     date: '19 Oct 2019',
-    //     urlImage: './assets/res/project4_liri_bot.png',
-    //     urlDemo: 'https://github.com/alex0n0/bamazon-cli',
-    //     urlSource: 'https://github.com/alex0n0/bamazon-cli',
-    // },
     {
-        name: 'Friend Finder',
+        name: 'Bamazon (Node CLI App)',
         description: `
-            <p class="ml-n4 mb-"><b>Friend Finder is a Heroku hosted site for creating profiles and being recommended a friend with similar interests.</b></p>
-            <p class="ml-n4 mb-0"><b>Features</b></p>
+            <p class="ml-n4"><b>Bamazon is a command line application with a customer and manager interface for purchasing and managing products</b></p>
+            <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
-                <li>Create a profile with a randomly generated profile image</li>
-                <li>Receive a recommendation for a friend with matching interests</li>
-                <li>Node server with API routes</li>
+                <li>Customer interface allows the user to choose items and quantities to purchase and view available stock</li>
+                <li>Manager interface allows the user to view products, increase stock and create new products</li>
             </div>
         `,
-        date: '26 Oct 2019',
-        urlImage: './assets/res/project5_friendfinder.png',
-        urlDemo: 'https://beanstalk33.herokuapp.com/',
-        urlSource: 'https://github.com/alex0n0/Friend-Finder',
+        date: '19 Oct 2019',
+        urlImage: '',
+        urlDemo: 'https://github.com/alex0n0/bamazon-cli',
+        urlSource: 'https://github.com/alex0n0/bamazon-cli',
     },
+
     {
-        name: 'Eat Da Burger',
+        name: 'Eat Da Burger (HTML/JS App)',
         description: `
-            <p class="ml-n4 mb-"><b>Eat Da Burger is a Heroku hosted, Node server delivered, webpage with dedicated API routes for create/read/update functionality.</b></p>
+            <p class="ml-n4"><b>Eat Da Burger is a Heroku hosted, Node server delivered, webpage with dedicated API routes for create/read/update functionality.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Make <i>new</i> and <i>repeat</i> burger requests</li>
@@ -106,14 +109,14 @@ var arrProjects = [
             </div>
         `,
         date: '2 Nov 2019',
-        urlImage: './assets/res/project6_eatdaburger.png',
+        urlImage: './assets/res/screenshot_eatdaburger.png',
         urlDemo: 'https://beanstalk99.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/eat-da-burger',
     },
     {
-        name: 'Automender',
+        name: 'Automender (HTML/JS App)',
         description: `
-            <p class="ml-n4 mb-"><b>Automender is a mock platform-as-a-service application where customers can make appointments with mechanic centres registered with the service.</b></p>
+            <p class="ml-n4"><b>Automender is a mock platform-as-a-service application where customers can make appointments with mechanic centres registered with the service.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Mechanic account creation, update & appointment viewing</li>
@@ -124,11 +127,73 @@ var arrProjects = [
             </div>
         `,
         date: '12 Nov 2019',
-        urlImage: './assets/res/project7_automender.png',
+        urlImage: './assets/res/screenshot_automender.png',
         urlDemo: 'https://usyd-bc-project-two.herokuapp.com/',
         urlSource: 'https://github.com/nick-ramsay/project-two',
+    },
+    {
+        name: 'Subreddit Scraper (HTML/JS App)',
+        description: `
+            <p class="ml-n4"><b>Subreddit Scraper app allows you to toggle between different subreddits to scrape and save articles.</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Save and delete articles from scraped articles</li>
+                <li>Create, update and delete notes on saved articles</li>
+                <li>mLab (MongoDB) data storage</li>
+            </div>
+        `,
+        date: '30 Nov 2019',
+        urlImage: '',
+        urlDemo: 'https://beanstalk66.herokuapp.com/',
+        urlSource: 'https://github.com/alex0n0/WebScraper',
+    },
+    {
+        name: "Clicker Game (React App)",
+        description: `
+            <p class="ml-n4"><b>React clicker game is a Batman themed memory game requiring you to click on each option only once.</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Randomised options that shuffle after each click</li>
+                <li>Tracking for current score and highest score during session</li>
+                <li>Loss animation</li>
+            </div>
+        `,
+        date: '7 Dec 2019',
+        urlImage: '',
+        urlDemo: 'https://beanstalk88.herokuapp.com/',
+        urlSource: 'https://github.com/alex0n0/reactclickergame',
+    },
+    {
+        name: 'OrderAway (React App)',
+        description: `
+            <p class="ml-n4"><b>OrderAway is a SaaS for restaurants to sign up for accounts and access table side ordering interfaces that directly display orders on a kitchen interface.</b></p>
+            <p class="ml-n4"><b>An additional corporate portal is provided for restaurants to create and update multiple menus and publish to the table side interface.</b></p>
+            <p class="ml-n4 mb-0">Features</p>
+            <div class="mb-3">
+                <li>Corporate Interface</li>
+                <ul>
+                    <li>CRUD operations on menus and contents of menus</li>
+                </ul>
+                <li>Customer Interface</li>
+                <ul>
+                    <li>Create a bill for each round of customers</li>
+                    <li>Make orders for menu items</li>
+                </ul>
+                <li>Kitchen Interface</li>
+                <ul>
+                    <li>View live orders and mark them as complete</li>
+                    <li>View history of orders for past 24 hours</li>
+                </ul>
+                <li>mLab (Mongo) data storage</li>
+            </div>
+        `,
+        date: '25 Dec 2019',
+        urlImage: '',
+        urlDemo: 'https://beanstalk03.herokuapp.com/',
+        urlSource: 'https://github.com/alex0n0/OrderAway',
     }
 ];
+
 
 
 
@@ -343,7 +408,7 @@ function renderSkills(obj) {
 function appendSkills(arr, region) {
     for (let i = 0; i < arr.length; i++) {
         region.append(
-            `<img class="m-2 skillIcon" style="height: 60px" src="${arr[i].url}"
+            `<img class="m-2 skillIcon" style="height: 40px" src="${arr[i].url}"
                 alt="${arr[i].name}" data-toggle="tooltip" data-placement="bottom" title="${arr[i].name}">`
             + `<p class="d-none">${arr[i].name}</p>`
         );
