@@ -56,12 +56,13 @@ var arrProjects = [
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Randomised player images and stats</li>
-                <li>Upated stats with each turn</li>
+                <li>Upated player stats with each turn</li>
                 <li>UX considerations in the form of semantically coloured zones and disabled buttons depending on game phase</li>
             </div>
         `,
         date: '24 Aug 2019',
         urlImage: './assets/res/screenshot_star_wars_rpg_game.png',
+        demoExists: true,
         urlDemo: 'https://alex0n0.github.io/Star-Wars-RPG-Game/',
         urlSource: 'https://github.com/alex0n0/Star-Wars-RPG-Game',
     },
@@ -78,6 +79,7 @@ var arrProjects = [
         `,
         date: '16 Sep 2019',
         urlImage: './assets/res/screenshot_chowtown.png',
+        demoExists: true,
         urlDemo: 'https://elliloes.github.io/Project-ChowTown/',
         urlSource: 'https://github.com/ElliLoes/Project-ChowTown',
     },
@@ -87,12 +89,13 @@ var arrProjects = [
             <p class="ml-n4"><b>LIRI Bot is a command line application for making searches to a variety of APIs. This application is run in the terminal (MacOS/Linux), command line (Windows).</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
-                <li>Uses APIS from Spotify, OMDb, Bands In Town</li>
+                <li>Uses APIs from Spotify, OMDb, Bands In Town</li>
                 <li>Controlled via recursive functions</li>
             </div>
         `,
         date: '5 Oct 2019',
         urlImage: './assets/res/screenshot_liri_bot.png',
+        demoExists: false,
         urlDemo: 'https://github.com/alex0n0/LIRI_Bot',
         urlSource: 'https://github.com/alex0n0/LIRI_Bot',
     },
@@ -102,12 +105,13 @@ var arrProjects = [
             <p class="ml-n4"><b>Bamazon is a command line application with a customer and manager interface for purchasing and managing inventory.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
-                <li>Customer interface allows the user to choose items and quantities to purchase and view available stock</li>
+                <li>Customer interface allows the user to view available stock and choose items purchase</li>
                 <li>Manager interface allows the user to view products, increase stock and create new products</li>
             </div>
         `,
         date: '19 Oct 2019',
         urlImage: './assets/res/screenshot_bamazon.png',
+        demoExists: false,
         urlDemo: 'https://github.com/alex0n0/bamazon-cli',
         urlSource: 'https://github.com/alex0n0/bamazon-cli',
     },
@@ -126,13 +130,14 @@ var arrProjects = [
         `,
         date: '2 Nov 2019',
         urlImage: './assets/res/screenshot_eatdaburger.png',
+        demoExists: true,
         urlDemo: 'https://beanstalk99.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/eat-da-burger',
     },
     {
         name: 'Automender (HTML/JS App)',
         description: `
-            <p class="ml-n4"><b>Automender is a mock platform-as-a-service application where customers can make appointments with mechanic centres registered with the service.</b></p>
+            <p class="ml-n4"><b>Automender is a PaaS application where customers can make appointments with mechanic centres registered with the service.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Mechanic account creation, update & appointment viewing</li>
@@ -144,35 +149,37 @@ var arrProjects = [
         `,
         date: '12 Nov 2019',
         urlImage: './assets/res/screenshot_automender.png',
+        demoExists: true,
         urlDemo: 'https://usyd-bc-project-two.herokuapp.com/',
         urlSource: 'https://github.com/nick-ramsay/project-two',
     },
     {
         name: "Clicker Game (React App)",
         description: `
-            <p class="ml-n4"><b>React clicker game is a Batman themed memory game requiring you to click on each option only once.</b></p>
+            <p class="ml-n4"><b>Clicker game is a Batman themed memory game built using React.js requiring you to click on each option only once.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Randomised options that shuffle after each click</li>
-                <li>Tracking for current score and highest score during session</li>
-                <li>Loss animation</li>
+                <li>Tracking for current score and highest score during each session</li>
+                <li>Includes animation for loss state</li>
             </div>
         `,
         date: '7 Dec 2019',
         urlImage: './assets/res/screenshot_reactclickergame.png',
+        demoExists: true,
         urlDemo: 'https://beanstalk88.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/reactclickergame',
     },
     {
         name: 'OrderAway (React App)',
         description: `
-            <p class="ml-n4"><b>OrderAway is a SaaS for restaurants to sign up for accounts and access table side ordering interfaces that directly display orders on a kitchen interface.</b></p>
-            <p class="ml-n4"><b>An additional corporate portal is provided for restaurants to create and update multiple menus and publish to the table side interface.</b></p>
+            <p class="ml-n4"><b>OrderAway is a SaaS for restaurants to create accounts and access table side ordering interfaces that directly display orders on a kitchen screen.</b></p>
+            <p class="ml-n4"><b>An additional corporate portal is provided for restaurants to create and update multiple menus and publish them to the table side interface.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Corporate Interface</li>
                 <ul>
-                    <li>CRUD operations on menus and contents of menus</li>
+                    <li>CRUD operations on menus and menu contents</li>
                 </ul>
                 <li>Customer Interface</li>
                 <ul>
@@ -189,6 +196,7 @@ var arrProjects = [
         `,
         date: '25 Dec 2019',
         urlImage: '',
+        demoExists: true,
         urlDemo: 'https://beanstalk03.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/OrderAway',
     }
@@ -296,31 +304,57 @@ $('#navbarToggler').find('a').on('click', function () {
 renderProjects(arrProjects);
 function renderProjects(arr) {
     for (let i = 0; i < arr.length; i++) {
-        $('#portfolioProjects').prepend(
-            `<div class="col-12 col-lg-6 mb-4">
-                <div class="card bg-light flex-row flex-wrap p-0 py-3">
-                    <h4 class="col-12 d-block d-sm-none d-lg-block text-center mb-3">${arr[i].name}</h4>
-                    <div class="col-12 col-sm-6 col-lg-12 mb-4 mb-sm-0 mb-lg-4">
-                        <a href="${arr[i].urlImage}" title="${arr[i].name}" target="_blank">
-                            <img src="${arr[i].urlImage}" class="img-fluid rounded shadow" alt="${arr[i].name}"> 
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-12 d-flex flex-column">
-                        <h4 class="d-none d-sm-block d-lg-none">${arr[i].name}</h4>
-                        <p class="small text-muted mb-2 text-right text-sm-left text-lg-right">created ${arr[i].date}</p>
-                        <ul class="mb-auto">${arr[i].description}</ul>
-                        <div class="d-flex justify-content-between mt-2 flex-column flex-sm-row flex-lg-column">
-                            <a href="${arr[i].urlDemo}" target="_blank" class="btn btn-outline-secondary btn-sm mr-sm-3 mr-lg-0 mb-2 mb-sm-0 mb-lg-2 flex-grow-1">
-                                <i class="fas fa-eye mr-1"></i>Demo
-                            </a>
-                            <a href="${arr[i].urlSource}" target="_blank" class="btn btn-outline-secondary btn-sm flex-grow-1">
-                                <i class="fab fa-github mr-1"></i>Source
+        if (arr[i].demoExists) {
+            $('#portfolioProjects').prepend(
+                `<div class="col-12 col-lg-6 mb-4">
+                    <div class="card bg-light flex-row flex-wrap p-0 py-3">
+                        <h4 class="col-12 d-block d-sm-none d-lg-block text-center mb-3">${arr[i].name}</h4>
+                        <div class="col-12 col-sm-6 col-lg-12 mb-4 mb-sm-0 mb-lg-4">
+                            <a href="${arr[i].urlImage}" title="${arr[i].name}" target="_blank">
+                                <img src="${arr[i].urlImage}" class="img-fluid rounded shadow" alt="${arr[i].name}"> 
                             </a>
                         </div>
+                        <div class="col-12 col-sm-6 col-lg-12 d-flex flex-column">
+                            <h4 class="d-none d-sm-block d-lg-none">${arr[i].name}</h4>
+                            <p class="small text-muted mb-2 text-right text-sm-left text-lg-right">created ${arr[i].date}</p>
+                            <ul class="mb-auto">${arr[i].description}</ul>
+                            <div class="d-flex justify-content-between mt-2 flex-column flex-sm-row flex-lg-column">
+                                <a href="${arr[i].urlDemo}" target="_blank" class="btn btn-outline-secondary btn-sm mr-sm-3 mr-lg-0 mb-2 mb-sm-0 mb-lg-2 flex-grow-1">
+                                    <i class="fas fa-eye mr-1"></i>Demo
+                                </a>
+                                <a href="${arr[i].urlSource}" target="_blank" class="btn btn-outline-secondary btn-sm flex-grow-1">
+                                    <i class="fab fa-github mr-1"></i>Source
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>`
-        );
+                </div>`
+            );
+        } else {
+            $('#portfolioProjects').prepend(
+                `<div class="col-12 col-lg-6 mb-4">
+                    <div class="card bg-light flex-row flex-wrap p-0 py-3">
+                        <h4 class="col-12 d-block d-sm-none d-lg-block text-center mb-3">${arr[i].name}</h4>
+                        <div class="col-12 col-sm-6 col-lg-12 mb-4 mb-sm-0 mb-lg-4">
+                            <a href="${arr[i].urlImage}" title="${arr[i].name}" target="_blank">
+                                <img src="${arr[i].urlImage}" class="img-fluid rounded shadow" alt="${arr[i].name}"> 
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-12 d-flex flex-column">
+                            <h4 class="d-none d-sm-block d-lg-none">${arr[i].name}</h4>
+                            <p class="small text-muted mb-2 text-right text-sm-left text-lg-right">created ${arr[i].date}</p>
+                            <ul class="mb-auto">${arr[i].description}</ul>
+                            <div class="d-flex justify-content-between mt-2 flex-column flex-sm-row flex-lg-column">
+                                <a href="${arr[i].urlSource}" target="_blank" class="btn btn-outline-secondary btn-sm flex-grow-1">
+                                    <i class="fab fa-github mr-1"></i>Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            );
+        }
+
     }
 }
 
