@@ -227,6 +227,11 @@ var objSkills = {
             name: 'jQuery',
             url: './assets/res/skillIcons/jquery.svg'
         },
+        {
+            name: 'React',
+            url: './assets/res/skillIcons/react.svg'
+        },
+
     ],
     languages: [
         {
