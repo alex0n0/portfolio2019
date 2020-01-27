@@ -150,7 +150,8 @@ var arrProjects = [
         date: '12 Nov 2019',
         urlImage: './assets/res/screenshot_automender.png',
         demoExists: true,
-        urlDemo: 'https://usyd-bc-project-two.herokuapp.com/',
+        // urlDemo: 'https://usyd-bc-project-two.herokuapp.com/',
+        urlDemo: 'https://afternoon-refuge-07267.herokuapp.com/',
         urlSource: 'https://github.com/nick-ramsay/project-two',
     },
     {
@@ -195,7 +196,7 @@ var arrProjects = [
             </div>
         `,
         date: '25 Dec 2019',
-        urlImage: '',
+        urlImage: './assets/res/screenshot_orderaway',
         demoExists: true,
         urlDemo: 'https://beanstalk03.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/OrderAway',
