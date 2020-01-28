@@ -80,8 +80,8 @@ var arrProjects = [
         date: '16 Sep 2019',
         urlImage: './assets/res/screenshot_chowtown.png',
         demoExists: true,
-        urlDemo: 'https://elliloes.github.io/Project-ChowTown/',
-        urlSource: 'https://github.com/ElliLoes/Project-ChowTown',
+        urlDemo: 'https://alex0n0.github.io/ChowTown/',
+        urlSource: 'https://github.com/alex0n0/ChowTown',
     },
     {
         name: 'LIRI Bot (Node CLI App)',
