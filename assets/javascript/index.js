@@ -196,7 +196,7 @@ var arrProjects = [
             </div>
         `,
         date: '25 Dec 2019',
-        urlImage: './assets/res/screenshot_orderaway',
+        urlImage: './assets/res/screenshot_orderaway.png',
         demoExists: true,
         urlDemo: 'https://beanstalk03.herokuapp.com/',
         urlSource: 'https://github.com/alex0n0/OrderAway',
