@@ -50,13 +50,13 @@
 
 var arrProjects = [
     {
-        name: 'Star Wars RPG',
+        name: 'Star Wars RPG (HTML/JS App)',
         description: `
             <p class="ml-n4 mb-"><b>“One vs all”–style browser based game.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Randomised player images and stats</li>
-                <li>Upated player stats with each turn</li>
+                <li>Updated player stats with each turn</li>
                 <li>UX considerations in the form of semantically coloured zones and disabled buttons depending on game phase</li>
             </div>
         `,
@@ -137,7 +137,7 @@ var arrProjects = [
     {
         name: 'Automender (HTML/JS App)',
         description: `
-            <p class="ml-n4"><b>Automender is a PaaS application where customers can make appointments with mechanic centres registered with the service.</b></p>
+            <p class="ml-n4"><b>Automender is a SaaS application where customers can make appointments with mechanic centres registered with the service.</b></p>
             <p class="ml-n4 mb-0">Features</p>
             <div class="mb-3">
                 <li>Mechanic account creation, update & appointment viewing</li>
@@ -322,7 +322,7 @@ function renderProjects(arr) {
                         </div>
                         <div class="col-12 col-sm-6 col-lg-12 d-flex flex-column">
                             <h4 class="d-none d-sm-block d-lg-none">${arr[i].name}</h4>
-                            <p class="small text-muted mb-2 text-right text-sm-left text-lg-right">created ${arr[i].date}</p>
+                            <p class="small text-muted mb-2 text-right text-sm-left text-lg-right">Created ${arr[i].date}</p>
                             <ul class="mb-auto">${arr[i].description}</ul>
                             <div class="d-flex justify-content-between mt-2 flex-column flex-sm-row flex-lg-column">
                                 <a href="${arr[i].urlDemo}" target="_blank" class="btn btn-outline-secondary btn-sm mr-sm-3 mr-lg-0 mb-2 mb-sm-0 mb-lg-2 flex-grow-1">
