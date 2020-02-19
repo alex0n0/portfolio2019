@@ -232,12 +232,20 @@ var objSkills = {
             name: 'React',
             url: './assets/res/skillIcons/react.svg'
         },
+        {
+            name: 'Angular',
+            url: './assets/res/skillIcons/angular-icon.svg'
+        },
 
     ],
     languages: [
         {
             name: 'JavaScript',
             url: './assets/res/skillIcons/javascript.svg'
+        },
+        {
+            name: 'TypeScript',
+            url: './assets/res/skillIcons/typescript-icon.svg'
         }
     ],
     backEnd: [
