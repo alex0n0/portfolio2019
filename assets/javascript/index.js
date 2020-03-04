@@ -329,7 +329,7 @@ function renderProjects(arr) {
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-12 d-flex flex-column">
-                            <h4 class="d-none d-sm-block d-lg-none">${arr[i].name}</h4>
+
                             <p class="small text-muted mb-2 text-right text-sm-left text-lg-right">Created ${arr[i].date}</p>
                             <ul class="mb-auto">${arr[i].description}</ul>
                             <div class="d-flex justify-content-between mt-2 flex-column flex-sm-row flex-lg-column">
