@@ -246,6 +246,10 @@ var objSkills = {
         {
             name: 'TypeScript',
             url: './assets/res/skillIcons/typescript-icon.svg'
+        },
+        {
+            name: 'C#',
+            url: './assets/res/skillIcons/c-sharp.svg'
         }
     ],
     backEnd: [
@@ -260,6 +264,10 @@ var objSkills = {
         {
             name: 'MySQL',
             url: './assets/res/skillIcons/mysql.svg'
+        },
+        {
+            name: 'SQL Server',
+            url: './assets/res/skillIcons/mssql.png'
         },
         {
             name: 'SQLite',
